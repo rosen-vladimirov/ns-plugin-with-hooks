@@ -1,0 +1,15 @@
+{
+  "name": "ns-plugin-with-hooks",
+  "version": "0.1.0",
+  "description": "Used for testing hooks execution.",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "node postinstall.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rosen Vladimirov",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "mkdirp": "^0.5.1"
+  }
+}
